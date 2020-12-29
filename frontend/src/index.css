@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Reset and font sizing needed. */
+.nav-green-section{
+  background-color: green;
+  height: 2rem;
+}
+
+.nav-white-section{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+img{
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* About Section */
+.aboutus-section{
+  height: 25rem;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-alignment{
+  text-align: center;
+}
+
+.aboutheading{
+  color: green;
+}
+
+.greenbutton{
+  background-color: green;
+  color: white;
+  padding: 1rem 1rem;
+}
+
+/* Opening Hours Section */
+.openinghours-section{
+background-color: green;
+color: white;
+height: 10rem;
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-content: center;
+text-align: center;
+}
+
+.opening-hours-box-div{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hoursbox{
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  padding: 0rem 1rem;
+}

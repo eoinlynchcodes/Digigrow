@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ContactForm from "../components/ContactForm";
 import rochestownpharmacy from "../images/rochestownpharmacy.png";
 
 function Homepage() {
@@ -32,7 +33,7 @@ function Homepage() {
       </section>
 
       <div className="aboutus-section">
-        <h2 className="aboutheading">About</h2>
+        <h2 className="aboutheading">ABOUT</h2>
         <p className="text-alignment">
           A paragraph of text. A paragraph of text. A paragraph of text. A
           paragraph of text. A paragraph of text. A paragraph of text. A
@@ -47,7 +48,7 @@ function Homepage() {
       </div>
 
       <section className="openinghours-section">
-        <h2 className="centre-this-text">Opening Hours</h2>
+        <h2 className="centre-this-text">OPENING HOURS</h2>
         <div className="opening-hours-box-div">
           <div className="hoursbox">
             <h5>Weekdays 9AM - 8PM</h5>
@@ -62,8 +63,7 @@ function Homepage() {
       </section>
 
       <section className="contactus-section">
-         
-
+         <ContactForm/>
       </section>
     </div>
   );

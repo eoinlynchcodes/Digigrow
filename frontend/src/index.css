@@ -81,3 +81,42 @@ text-align: center;
   border: 1px solid white;
   padding: 0rem 1rem;
 }
+
+/* Contact Us Section */
+
+.contactus-section{
+  background-color: #333333;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-div{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.vl {
+  border-left: 2px solid grey;
+  height: 180px;
+  position: static;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.orangeButton{
+  background-color: coral;
+  color: white;
+}

@@ -18,6 +18,7 @@ function ContactForm() {
 
   const handleSubmit = (event) => {
       event.preventDefault();
+      debugger
       axios.post(`${process.env.REACT_APP_DATABASE_URL}/contactform`, formdata)
       .then(response => {
           setFormData(response.data);
@@ -46,11 +47,11 @@ function ContactForm() {
           placeholder="Email:"
           onChange={(event) => handleChange(event)}
         />
-        <button className="orangeButton" type="submit">
-          Submit
-        </button>
+        <input className="orangeButton" type="submit"
+          value="Submit"
+        />
       </form>
-      <div class="vl"></div>
+      <div className="vl"></div>
         <div>
             <h3>CONTACT INFO</h3>      
             <p><b>Email:</b><br/>
